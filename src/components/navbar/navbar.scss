@@ -141,9 +141,12 @@ nav {
             align-items: center;
             justify-content: center;
             font-style: 24px;
+            visibility: hidden;
 
             &.active {
                 right: 0;
+                visibility: visible;
+                
             }
 
             a {

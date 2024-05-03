@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "cors": {
+        "~/images/*": {
+            "origins": ["*"],
+            "methods": ["GET"],
+            "headers": ["content-Type"]
+        }
+    }
+}

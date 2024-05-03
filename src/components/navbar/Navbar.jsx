@@ -23,9 +23,7 @@ function Navbar() {
                 { user ? (
                     
                     <div className="user">
-                        
                         <img src="/mine.png" alt="" ></img>
-                        
                         <span>Atayero Clinton</span>
                         <Link to="/profile" className="profile">
                             <div className="notification">3</div>
@@ -41,12 +39,12 @@ function Navbar() {
                     <img src="/menu.png" alt="" onClick={() => setOpen((prevValue) => !prevValue)}/>
                 </div>
                 <div className={open ? "menu active" : "menu"}>
-                <a href="/">Home</a>
-                <Link to={'/list'}><a href="/" onClick={() => setOpen(false)}>Apartments</a></Link>
-                <Link to={'/profile'}><a href="/" onClick={() => setOpen(false)}>Profile</a></Link>
-                <a href="/">Contact</a>
-                <a href="/">Sign in</a>
-                <a href="/">Sign up</a>
+                    <a href="/">Home</a>
+                    <Link to={'/list'}><a href="/" onClick={() => setOpen(false)}>Apartments</a></Link>
+                    <Link to={'/profile'}><a href="/" onClick={() => setOpen(false)}>Profile</a></Link>
+                    <a href="/">Contact</a>
+                    <a href="/">Sign in</a>
+                    <a href="/">Sign up</a>
                 </div>
             </div>
 

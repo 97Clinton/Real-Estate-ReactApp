@@ -8,7 +8,7 @@ function Filter() {
                 <div className="item">
                     <label htmlFor="bedroom">Location</label>
                     <select name="type" id="type">
-                        <option value="">any</option>
+                        <option value="" selected="selected">any</option>
                         <option value="buy">Buy</option>
                         <option value="rent">Rent</option>
                     </select>
@@ -16,7 +16,7 @@ function Filter() {
                 <div className="item">
                     <label htmlFor="property">Property</label>
                     <select name="property" id="property">
-                        <option value="">any</option>
+                        <option value="" selected="selected">any</option>
                         <option value="apartment">Apartment</option>
                         <option value="house">House</option>
                         <option value="condo">Condo</option>

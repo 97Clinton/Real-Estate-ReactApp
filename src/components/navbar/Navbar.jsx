@@ -39,6 +39,7 @@ function Navbar() {
                     <img src="/menu.png" alt="" onClick={() => setOpen((prevValue) => !prevValue)}/>
                 </div>
                 <div className={open ? "menu active" : "menu"}>
+                    
                     <a href="/">Home</a>
                     <Link to={'/list'}><a href="/" onClick={() => setOpen(false)}>Apartments</a></Link>
                     <Link to={'/profile'}><a href="/" onClick={() => setOpen(false)}>Profile</a></Link>
